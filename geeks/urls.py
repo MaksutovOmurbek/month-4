@@ -24,10 +24,10 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.kany.urls')),
-    path('', include('apps.nurbu.urls')),
-    path('', include('apps.kutbu.urls')),
-    path('', include('apps.musu.urls')),
-    path('', include('apps.kanykei.urls')),
+    # path('', include('apps.nurbu.urls')),
+    # path('', include('apps.kutbu.urls')),
+    # path('', include('apps.musu.urls')),
+    # path('', include('apps.kanykei.urls')),
 ]
 
 
